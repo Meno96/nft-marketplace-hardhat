@@ -1,6 +1,7 @@
-const { ethers } = require("hardhat")
+const { frontEndContractsFile, frontEndAbiLocation } = require("../helper-hardhat-config")
+require("dotenv").config()
 const fs = require("fs")
-const { frontEndAbiLocation } = require("../helper-hardhat-config")
+const { network } = require("hardhat")
 
 module.exports = async () => {
     if (process.env.UPDATE_FRONT_END) {
