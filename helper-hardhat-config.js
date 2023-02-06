@@ -27,9 +27,13 @@ const networkConfig = {
 
 const developmentChains = ["hardhat", "localhost"]
 const VERIFICATION_BLOCK_CONFIRMATIONS = 6
+const frontEndContractsFile = "../nft-marketplace-nextjs/constants/networkMapping.json"
+const frontEndAbiLocation = "../nft-marketplace-nextjs/constants/"
 
 module.exports = {
     networkConfig,
     developmentChains,
     VERIFICATION_BLOCK_CONFIRMATIONS,
+    frontEndContractsFile,
+    frontEndAbiLocation,
 }
