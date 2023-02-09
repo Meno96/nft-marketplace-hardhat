@@ -2,6 +2,12 @@
     Hardhat NFT Marketplace
 </h1>
 
+<h2 align="center">
+    <a href="https://nft-marketplace-nextjs2.vercel.app/">
+        <strong><p>Website</p></strong>
+    </a>
+</h2>
+
 <br/>
 
 <p align="center">
